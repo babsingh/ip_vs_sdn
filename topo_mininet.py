@@ -53,13 +53,13 @@ def perfTest(argv):
    try:
       opts, args = getopt.getopt(argv,"ht:n:d:f:",["type=","hosts=","depth=","fanout="])
    except getopt.GetoptError:
-      print 'test.py -t <topo> -n <hosts>'
-      print 'test.py -t <topo> -d <depth> -f <fanout>'
+      print 'topo_mininet.py -t <topo> -n <hosts>'
+      print 'topo_mininet.py -t <topo> -d <depth> -f <fanout>'
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-        print 'test.py -t <topo> -h <hosts>'
-        print 'test.py -t <topo> -d <depth> -f <fanout>' 
+        print 'topo_mininet.py -t <topo> -h <hosts>'
+        print 'topo_mininet.py -t <topo> -d <depth> -f <fanout>' 
 	sys.exit()
       elif opt in ("-t", "--type"):
          type = arg
