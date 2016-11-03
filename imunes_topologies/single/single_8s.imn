@@ -1,0 +1,261 @@
+node n0 {
+    type lanswitch
+    network-config {
+	hostname switch1
+	!
+    }
+    canvas c0
+    iconcoords {312 96}
+    labelcoords {312 119}
+    interface-peer {e0 n1}
+    interface-peer {e1 n2}
+    interface-peer {e2 n3}
+    interface-peer {e3 n4}
+    interface-peer {e4 n5}
+    interface-peer {e5 n6}
+    interface-peer {e6 n7}
+    interface-peer {e7 n8}
+}
+
+node n1 {
+    type pc
+    network-config {
+	hostname pc1
+	!
+	interface eth0
+	 ip address 10.0.0.20/24
+	 ipv6 address fc00::20/64
+	 mac address 42:00:aa:00:00:00
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {24 96}
+    labelcoords {24 127}
+    interface-peer {eth0 n0}
+}
+
+node n2 {
+    type pc
+    network-config {
+	hostname pc2
+	!
+	interface eth0
+	 ip address 10.0.0.21/24
+	 ipv6 address fc00::21/64
+	 mac address 42:00:aa:00:00:01
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {48 216}
+    labelcoords {48 247}
+    interface-peer {eth0 n0}
+}
+
+node n3 {
+    type pc
+    network-config {
+	hostname pc3
+	!
+	interface eth0
+	 ip address 10.0.0.22/24
+	 ipv6 address fc00::22/64
+	 mac address 42:00:aa:00:00:02
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {72 312}
+    labelcoords {72 343}
+    interface-peer {eth0 n0}
+}
+
+node n4 {
+    type pc
+    network-config {
+	hostname pc4
+	!
+	interface eth0
+	 ip address 10.0.0.23/24
+	 ipv6 address fc00::23/64
+	 mac address 42:00:aa:00:00:03
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {192 360}
+    labelcoords {192 391}
+    interface-peer {eth0 n0}
+}
+
+node n5 {
+    type pc
+    network-config {
+	hostname pc5
+	!
+	interface eth0
+	 ip address 10.0.0.24/24
+	 ipv6 address fc00::24/64
+	 mac address 42:00:aa:00:00:04
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {360 336}
+    labelcoords {360 367}
+    interface-peer {eth0 n0}
+}
+
+node n6 {
+    type pc
+    network-config {
+	hostname pc6
+	!
+	interface eth0
+	 ip address 10.0.0.25/24
+	 ipv6 address fc00::25/64
+	 mac address 42:00:aa:00:00:05
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {528 312}
+    labelcoords {528 343}
+    interface-peer {eth0 n0}
+}
+
+node n7 {
+    type pc
+    network-config {
+	hostname pc7
+	!
+	interface eth0
+	 ip address 10.0.0.26/24
+	 ipv6 address fc00::26/64
+	 mac address 42:00:aa:00:00:06
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {600 192}
+    labelcoords {600 223}
+    interface-peer {eth0 n0}
+}
+
+node n8 {
+    type pc
+    network-config {
+	hostname pc8
+	!
+	interface eth0
+	 ip address 10.0.0.27/24
+	 ipv6 address fc00::27/64
+	 mac address 42:00:aa:00:00:07
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {600 96}
+    labelcoords {600 127}
+    interface-peer {eth0 n0}
+}
+
+link l0 {
+    delay 2000
+    nodes {n1 n0}
+    bandwidth 100000000
+}
+
+link l1 {
+    delay 2000
+    nodes {n2 n0}
+    bandwidth 100000000
+}
+
+link l2 {
+    delay 2000
+    nodes {n3 n0}
+    bandwidth 100000000
+}
+
+link l3 {
+    delay 2000
+    nodes {n4 n0}
+    bandwidth 100000000
+}
+
+link l4 {
+    delay 2000
+    nodes {n5 n0}
+    bandwidth 100000000
+}
+
+link l5 {
+    delay 2000
+    nodes {n6 n0}
+    bandwidth 100000000
+}
+
+link l6 {
+    delay 2000
+    nodes {n7 n0}
+    bandwidth 100000000
+}
+
+link l7 {
+    delay 2000
+    nodes {n8 n0}
+    bandwidth 100000000
+}
+
+canvas c0 {
+    name {Canvas0}
+}
+
+option show {
+    interface_names yes
+    ip_addresses yes
+    ipv6_addresses yes
+    node_labels yes
+    link_labels yes
+    background_images no
+    annotations yes
+    hostsAutoAssign no
+    grid yes
+    iconSize normal
+    zoom 1.0
+}
+
