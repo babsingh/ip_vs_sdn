@@ -1,0 +1,1547 @@
+node n0 {
+    type lanswitch
+    network-config {
+	hostname switch1
+	!
+    }
+    canvas c0
+    iconcoords {96 264}
+    labelcoords {96 287}
+    interface-peer {e0 n8}
+    interface-peer {e1 n1}
+}
+
+node n1 {
+    type lanswitch
+    network-config {
+	hostname switch2
+	!
+    }
+    canvas c0
+    iconcoords {288 264}
+    labelcoords {288 287}
+    interface-peer {e0 n0}
+    interface-peer {e1 n9}
+    interface-peer {e2 n2}
+}
+
+node n2 {
+    type lanswitch
+    network-config {
+	hostname switch3
+	!
+    }
+    canvas c0
+    iconcoords {480 264}
+    labelcoords {480 287}
+    interface-peer {e0 n1}
+    interface-peer {e1 n10}
+    interface-peer {e2 n3}
+}
+
+node n3 {
+    type lanswitch
+    network-config {
+	hostname switch4
+	!
+    }
+    canvas c0
+    iconcoords {672 264}
+    labelcoords {672 287}
+    interface-peer {e0 n2}
+    interface-peer {e1 n11}
+    interface-peer {e2 n4}
+}
+
+node n4 {
+    type lanswitch
+    network-config {
+	hostname switch5
+	!
+    }
+    canvas c0
+    iconcoords {864 264}
+    labelcoords {864 287}
+    interface-peer {e0 n3}
+    interface-peer {e1 n12}
+    interface-peer {e2 n5}
+}
+
+node n5 {
+    type lanswitch
+    network-config {
+	hostname switch6
+	!
+    }
+    canvas c0
+    iconcoords {1056 264}
+    labelcoords {1056 287}
+    interface-peer {e0 n4}
+    interface-peer {e1 n13}
+    interface-peer {e2 n6}
+}
+
+node n6 {
+    type lanswitch
+    network-config {
+	hostname switch7
+	!
+    }
+    canvas c0
+    iconcoords {1272 264}
+    labelcoords {1272 287}
+    interface-peer {e0 n5}
+    interface-peer {e1 n14}
+    interface-peer {e2 n7}
+}
+
+node n7 {
+    type lanswitch
+    network-config {
+	hostname switch8
+	!
+    }
+    canvas c0
+    iconcoords {1464 264}
+    labelcoords {1464 287}
+    interface-peer {e0 n6}
+    interface-peer {e1 n15}
+    interface-peer {e2 n16}
+}
+
+node n8 {
+    type pc
+    network-config {
+	hostname pc1
+	!
+	interface eth0
+	 ip address 10.0.0.20/24
+	 ipv6 address fc00::20/64
+	 mac address 42:00:aa:00:00:00
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {96 48}
+    labelcoords {96 79}
+    interface-peer {eth0 n0}
+}
+
+node n9 {
+    type pc
+    network-config {
+	hostname pc2
+	!
+	interface eth0
+	 ip address 10.0.0.21/24
+	 ipv6 address fc00::21/64
+	 mac address 42:00:aa:00:00:01
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {288 48}
+    labelcoords {288 79}
+    interface-peer {eth0 n1}
+}
+
+node n10 {
+    type pc
+    network-config {
+	hostname pc3
+	!
+	interface eth0
+	 ip address 10.0.0.22/24
+	 ipv6 address fc00::22/64
+	 mac address 42:00:aa:00:00:02
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {480 48}
+    labelcoords {480 79}
+    interface-peer {eth0 n2}
+}
+
+node n11 {
+    type pc
+    network-config {
+	hostname pc4
+	!
+	interface eth0
+	 ip address 10.0.0.23/24
+	 ipv6 address fc00::23/64
+	 mac address 42:00:aa:00:00:03
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {672 48}
+    labelcoords {672 79}
+    interface-peer {eth0 n3}
+}
+
+node n12 {
+    type pc
+    network-config {
+	hostname pc5
+	!
+	interface eth0
+	 ip address 10.0.0.24/24
+	 ipv6 address fc00::24/64
+	 mac address 42:00:aa:00:00:04
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {864 48}
+    labelcoords {864 79}
+    interface-peer {eth0 n4}
+}
+
+node n13 {
+    type pc
+    network-config {
+	hostname pc6
+	!
+	interface eth0
+	 ip address 10.0.0.25/24
+	 ipv6 address fc00::25/64
+	 mac address 42:00:aa:00:00:05
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1056 48}
+    labelcoords {1056 79}
+    interface-peer {eth0 n5}
+}
+
+node n14 {
+    type pc
+    network-config {
+	hostname pc7
+	!
+	interface eth0
+	 ip address 10.0.0.26/24
+	 ipv6 address fc00::26/64
+	 mac address 42:00:aa:00:00:06
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1296 48}
+    labelcoords {1296 79}
+    interface-peer {eth0 n6}
+}
+
+node n15 {
+    type pc
+    network-config {
+	hostname pc8
+	!
+	interface eth0
+	 ip address 10.0.0.27/24
+	 ipv6 address fc00::27/64
+	 mac address 42:00:aa:00:00:07
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1464 24}
+    labelcoords {1464 55}
+    interface-peer {eth0 n7}
+}
+
+node n16 {
+    type lanswitch
+    network-config {
+	hostname switch9
+	!
+    }
+    canvas c0
+    iconcoords {1464 360}
+    labelcoords {1464 383}
+    interface-peer {e0 n7}
+    interface-peer {e1 n17}
+    interface-peer {e2 n24}
+}
+
+node n17 {
+    type lanswitch
+    network-config {
+	hostname switch10
+	!
+    }
+    canvas c0
+    iconcoords {1272 360}
+    labelcoords {1272 383}
+    interface-peer {e0 n16}
+    interface-peer {e1 n18}
+    interface-peer {e2 n25}
+}
+
+node n18 {
+    type lanswitch
+    network-config {
+	hostname switch11
+	!
+    }
+    canvas c0
+    iconcoords {1056 360}
+    labelcoords {1056 383}
+    interface-peer {e0 n17}
+    interface-peer {e1 n19}
+    interface-peer {e2 n26}
+}
+
+node n19 {
+    type lanswitch
+    network-config {
+	hostname switch12
+	!
+    }
+    canvas c0
+    iconcoords {864 360}
+    labelcoords {864 383}
+    interface-peer {e0 n18}
+    interface-peer {e1 n20}
+    interface-peer {e2 n27}
+}
+
+node n20 {
+    type lanswitch
+    network-config {
+	hostname switch13
+	!
+    }
+    canvas c0
+    iconcoords {672 360}
+    labelcoords {672 383}
+    interface-peer {e0 n19}
+    interface-peer {e1 n21}
+    interface-peer {e2 n28}
+}
+
+node n21 {
+    type lanswitch
+    network-config {
+	hostname switch14
+	!
+    }
+    canvas c0
+    iconcoords {480 360}
+    labelcoords {480 383}
+    interface-peer {e0 n20}
+    interface-peer {e1 n22}
+    interface-peer {e2 n29}
+}
+
+node n22 {
+    type lanswitch
+    network-config {
+	hostname switch15
+	!
+    }
+    canvas c0
+    iconcoords {288 360}
+    labelcoords {288 383}
+    interface-peer {e0 n21}
+    interface-peer {e1 n23}
+    interface-peer {e2 n30}
+}
+
+node n23 {
+    type lanswitch
+    network-config {
+	hostname switch16
+	!
+    }
+    canvas c0
+    iconcoords {72 360}
+    labelcoords {72 383}
+    interface-peer {e0 n22}
+    interface-peer {e1 n31}
+    interface-peer {e2 n32}
+}
+
+node n24 {
+    type pc
+    network-config {
+	hostname pc9
+	!
+	interface eth0
+	 ip address 10.0.0.28/24
+	 ipv6 address fc00::28/64
+	 mac address 42:00:aa:00:00:08
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1464 552}
+    labelcoords {1464 583}
+    interface-peer {eth0 n16}
+}
+
+node n25 {
+    type pc
+    network-config {
+	hostname pc10
+	!
+	interface eth0
+	 ip address 10.0.0.29/24
+	 ipv6 address fc00::29/64
+	 mac address 42:00:aa:00:00:09
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1272 576}
+    labelcoords {1272 607}
+    interface-peer {eth0 n17}
+}
+
+node n26 {
+    type pc
+    network-config {
+	hostname pc11
+	!
+	interface eth0
+	 ip address 10.0.0.30/24
+	 ipv6 address fc00::2a/64
+	 mac address 42:00:aa:00:00:0a
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1056 552}
+    labelcoords {1056 583}
+    interface-peer {eth0 n18}
+}
+
+node n27 {
+    type pc
+    network-config {
+	hostname pc12
+	!
+	interface eth0
+	 ip address 10.0.0.31/24
+	 ipv6 address fc00::2b/64
+	 mac address 42:00:aa:00:00:0b
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {864 576}
+    labelcoords {864 607}
+    interface-peer {eth0 n19}
+}
+
+node n28 {
+    type pc
+    network-config {
+	hostname pc13
+	!
+	interface eth0
+	 ip address 10.0.0.32/24
+	 ipv6 address fc00::2c/64
+	 mac address 42:00:aa:00:00:0c
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {672 576}
+    labelcoords {672 607}
+    interface-peer {eth0 n20}
+}
+
+node n29 {
+    type pc
+    network-config {
+	hostname pc14
+	!
+	interface eth0
+	 ip address 10.0.0.33/24
+	 ipv6 address fc00::2d/64
+	 mac address 42:00:aa:00:00:0d
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {480 576}
+    labelcoords {480 607}
+    interface-peer {eth0 n21}
+}
+
+node n30 {
+    type pc
+    network-config {
+	hostname pc15
+	!
+	interface eth0
+	 ip address 10.0.0.34/24
+	 ipv6 address fc00::2e/64
+	 mac address 42:00:aa:00:00:0e
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {264 576}
+    labelcoords {264 607}
+    interface-peer {eth0 n22}
+}
+
+node n31 {
+    type pc
+    network-config {
+	hostname pc16
+	!
+	interface eth0
+	 ip address 10.0.0.35/24
+	 ipv6 address fc00::2f/64
+	 mac address 42:00:aa:00:00:0f
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {144 576}
+    labelcoords {144 607}
+    interface-peer {eth0 n23}
+}
+
+node n32 {
+    type lanswitch
+    network-config {
+	hostname switch17
+	!
+    }
+    canvas c0
+    iconcoords {72 648}
+    labelcoords {72 671}
+    interface-peer {e0 n23}
+    interface-peer {e1 n33}
+    interface-peer {e2 n47}
+    interface-peer {e3 n48}
+}
+
+node n33 {
+    type lanswitch
+    network-config {
+	hostname switch18
+	!
+    }
+    canvas c0
+    iconcoords {264 648}
+    labelcoords {264 671}
+    interface-peer {e0 n32}
+    interface-peer {e1 n34}
+    interface-peer {e2 n46}
+}
+
+node n34 {
+    type lanswitch
+    network-config {
+	hostname switch19
+	!
+    }
+    canvas c0
+    iconcoords {480 648}
+    labelcoords {480 671}
+    interface-peer {e0 n33}
+    interface-peer {e1 n35}
+    interface-peer {e2 n45}
+}
+
+node n35 {
+    type lanswitch
+    network-config {
+	hostname switch20
+	!
+    }
+    canvas c0
+    iconcoords {672 648}
+    labelcoords {672 671}
+    interface-peer {e0 n34}
+    interface-peer {e1 n36}
+    interface-peer {e2 n44}
+}
+
+node n36 {
+    type lanswitch
+    network-config {
+	hostname switch21
+	!
+    }
+    canvas c0
+    iconcoords {864 648}
+    labelcoords {864 671}
+    interface-peer {e0 n35}
+    interface-peer {e1 n37}
+    interface-peer {e2 n43}
+}
+
+node n37 {
+    type lanswitch
+    network-config {
+	hostname switch22
+	!
+    }
+    canvas c0
+    iconcoords {1056 648}
+    labelcoords {1056 671}
+    interface-peer {e0 n36}
+    interface-peer {e1 n38}
+    interface-peer {e2 n42}
+}
+
+node n38 {
+    type lanswitch
+    network-config {
+	hostname switch23
+	!
+    }
+    canvas c0
+    iconcoords {1272 648}
+    labelcoords {1272 671}
+    interface-peer {e0 n37}
+    interface-peer {e1 n39}
+    interface-peer {e2 n41}
+}
+
+node n39 {
+    type lanswitch
+    network-config {
+	hostname switch24
+	!
+    }
+    canvas c0
+    iconcoords {1464 648}
+    labelcoords {1464 671}
+    interface-peer {e0 n38}
+    interface-peer {e1 n40}
+}
+
+node n40 {
+    type pc
+    network-config {
+	hostname pc17
+	!
+	interface eth0
+	 ip address 10.0.0.36/24
+	 ipv6 address fc00::30/64
+	 mac address 42:00:aa:00:00:10
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1464 840}
+    labelcoords {1464 871}
+    interface-peer {eth0 n39}
+}
+
+node n41 {
+    type pc
+    network-config {
+	hostname pc18
+	!
+	interface eth0
+	 ip address 10.0.0.37/24
+	 ipv6 address fc00::31/64
+	 mac address 42:00:aa:00:00:11
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1272 840}
+    labelcoords {1272 871}
+    interface-peer {eth0 n38}
+}
+
+node n42 {
+    type pc
+    network-config {
+	hostname pc19
+	!
+	interface eth0
+	 ip address 10.0.0.38/24
+	 ipv6 address fc00::32/64
+	 mac address 42:00:aa:00:00:12
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1056 840}
+    labelcoords {1056 871}
+    interface-peer {eth0 n37}
+}
+
+node n43 {
+    type pc
+    network-config {
+	hostname pc20
+	!
+	interface eth0
+	 ip address 10.0.0.39/24
+	 ipv6 address fc00::33/64
+	 mac address 42:00:aa:00:00:13
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {864 840}
+    labelcoords {864 871}
+    interface-peer {eth0 n36}
+}
+
+node n44 {
+    type pc
+    network-config {
+	hostname pc21
+	!
+	interface eth0
+	 ip address 10.0.0.40/24
+	 ipv6 address fc00::34/64
+	 mac address 42:00:aa:00:00:14
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {648 840}
+    labelcoords {648 871}
+    interface-peer {eth0 n35}
+}
+
+node n45 {
+    type pc
+    network-config {
+	hostname pc22
+	!
+	interface eth0
+	 ip address 10.0.0.41/24
+	 ipv6 address fc00::35/64
+	 mac address 42:00:aa:00:00:15
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {480 840}
+    labelcoords {480 871}
+    interface-peer {eth0 n34}
+}
+
+node n46 {
+    type pc
+    network-config {
+	hostname pc23
+	!
+	interface eth0
+	 ip address 10.0.0.42/24
+	 ipv6 address fc00::36/64
+	 mac address 42:00:aa:00:00:16
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {264 840}
+    labelcoords {264 871}
+    interface-peer {eth0 n33}
+}
+
+node n47 {
+    type pc
+    network-config {
+	hostname pc24
+	!
+	interface eth0
+	 ip address 10.0.0.43/24
+	 ipv6 address fc00::37/64
+	 mac address 42:00:aa:00:00:17
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {144 840}
+    labelcoords {144 871}
+    interface-peer {eth0 n32}
+}
+
+node n48 {
+    type lanswitch
+    network-config {
+	hostname switch25
+	!
+    }
+    canvas c0
+    iconcoords {72 912}
+    labelcoords {72 935}
+    interface-peer {e0 n32}
+    interface-peer {e1 n49}
+    interface-peer {e2 n56}
+}
+
+node n49 {
+    type lanswitch
+    network-config {
+	hostname switch26
+	!
+    }
+    canvas c0
+    iconcoords {264 912}
+    labelcoords {264 935}
+    interface-peer {e0 n48}
+    interface-peer {e1 n50}
+    interface-peer {e2 n57}
+}
+
+node n50 {
+    type lanswitch
+    network-config {
+	hostname switch27
+	!
+    }
+    canvas c0
+    iconcoords {480 912}
+    labelcoords {480 935}
+    interface-peer {e0 n49}
+    interface-peer {e1 n51}
+    interface-peer {e2 n58}
+}
+
+node n51 {
+    type lanswitch
+    network-config {
+	hostname switch28
+	!
+    }
+    canvas c0
+    iconcoords {648 912}
+    labelcoords {648 935}
+    interface-peer {e0 n50}
+    interface-peer {e1 n52}
+    interface-peer {e2 n59}
+}
+
+node n52 {
+    type lanswitch
+    network-config {
+	hostname switch29
+	!
+    }
+    canvas c0
+    iconcoords {864 912}
+    labelcoords {864 935}
+    interface-peer {e0 n51}
+    interface-peer {e1 n53}
+    interface-peer {e2 n60}
+}
+
+node n53 {
+    type lanswitch
+    network-config {
+	hostname switch30
+	!
+    }
+    canvas c0
+    iconcoords {1080 912}
+    labelcoords {1080 935}
+    interface-peer {e0 n52}
+    interface-peer {e1 n54}
+    interface-peer {e2 n61}
+}
+
+node n54 {
+    type lanswitch
+    network-config {
+	hostname switch31
+	!
+    }
+    canvas c0
+    iconcoords {1272 912}
+    labelcoords {1272 935}
+    interface-peer {e0 n53}
+    interface-peer {e1 n55}
+    interface-peer {e2 n62}
+}
+
+node n55 {
+    type lanswitch
+    network-config {
+	hostname switch32
+	!
+    }
+    canvas c0
+    iconcoords {1464 912}
+    labelcoords {1464 935}
+    interface-peer {e0 n54}
+    interface-peer {e1 n63}
+}
+
+node n56 {
+    type pc
+    network-config {
+	hostname pc25
+	!
+	interface eth0
+	 ip address 10.0.0.44/24
+	 ipv6 address fc00::38/64
+	 mac address 42:00:aa:00:00:18
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {72 1128}
+    labelcoords {72 1159}
+    interface-peer {eth0 n48}
+}
+
+node n57 {
+    type pc
+    network-config {
+	hostname pc26
+	!
+	interface eth0
+	 ip address 10.0.0.45/24
+	 ipv6 address fc00::39/64
+	 mac address 42:00:aa:00:00:19
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {264 1104}
+    labelcoords {264 1135}
+    interface-peer {eth0 n49}
+}
+
+node n58 {
+    type pc
+    network-config {
+	hostname pc27
+	!
+	interface eth0
+	 ip address 10.0.0.46/24
+	 ipv6 address fc00::3a/64
+	 mac address 42:00:aa:00:00:1a
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {480 1104}
+    labelcoords {480 1135}
+    interface-peer {eth0 n50}
+}
+
+node n59 {
+    type pc
+    network-config {
+	hostname pc28
+	!
+	interface eth0
+	 ip address 10.0.0.47/24
+	 ipv6 address fc00::3b/64
+	 mac address 42:00:aa:00:00:1b
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {648 1104}
+    labelcoords {648 1135}
+    interface-peer {eth0 n51}
+}
+
+node n60 {
+    type pc
+    network-config {
+	hostname pc29
+	!
+	interface eth0
+	 ip address 10.0.0.48/24
+	 ipv6 address fc00::3c/64
+	 mac address 42:00:aa:00:00:1c
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {864 1104}
+    labelcoords {864 1135}
+    interface-peer {eth0 n52}
+}
+
+node n61 {
+    type pc
+    network-config {
+	hostname pc30
+	!
+	interface eth0
+	 ip address 10.0.0.49/24
+	 ipv6 address fc00::3d/64
+	 mac address 42:00:aa:00:00:1d
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1080 1128}
+    labelcoords {1080 1159}
+    interface-peer {eth0 n53}
+}
+
+node n62 {
+    type pc
+    network-config {
+	hostname pc31
+	!
+	interface eth0
+	 ip address 10.0.0.50/24
+	 ipv6 address fc00::3e/64
+	 mac address 42:00:aa:00:00:1e
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1272 1128}
+    labelcoords {1272 1159}
+    interface-peer {eth0 n54}
+}
+
+node n63 {
+    type pc
+    network-config {
+	hostname pc32
+	!
+	interface eth0
+	 ip address 10.0.0.51/24
+	 ipv6 address fc00::3f/64
+	 mac address 42:00:aa:00:00:1f
+	!
+	interface lo0
+	 type lo
+	 ip address 127.0.0.1/24
+	 ipv6 address ::1/128
+	!
+    }
+    canvas c0
+    iconcoords {1464 1128}
+    labelcoords {1464 1159}
+    interface-peer {eth0 n55}
+}
+
+link l0 {
+    delay 2000
+    nodes {n8 n0}
+    bandwidth 100000000
+}
+
+link l1 {
+    delay 2000
+    nodes {n0 n1}
+    bandwidth 100000000
+}
+
+link l2 {
+    delay 2000
+    nodes {n1 n9}
+    bandwidth 100000000
+}
+
+link l3 {
+    delay 2000
+    nodes {n1 n2}
+    bandwidth 100000000
+}
+
+link l4 {
+    delay 2000
+    nodes {n2 n10}
+    bandwidth 100000000
+}
+
+link l5 {
+    delay 2000
+    nodes {n2 n3}
+    bandwidth 100000000
+}
+
+link l6 {
+    delay 2000
+    nodes {n3 n11}
+    bandwidth 100000000
+}
+
+link l7 {
+    delay 2000
+    nodes {n3 n4}
+    bandwidth 100000000
+}
+
+link l8 {
+    delay 2000
+    nodes {n4 n12}
+    bandwidth 100000000
+}
+
+link l9 {
+    delay 2000
+    nodes {n4 n5}
+    bandwidth 100000000
+}
+
+link l10 {
+    delay 2000
+    nodes {n5 n13}
+    bandwidth 100000000
+}
+
+link l11 {
+    delay 2000
+    nodes {n5 n6}
+    bandwidth 100000000
+}
+
+link l12 {
+    delay 2000
+    nodes {n6 n14}
+    bandwidth 100000000
+}
+
+link l13 {
+    delay 2000
+    nodes {n6 n7}
+    bandwidth 100000000
+}
+
+link l14 {
+    delay 2000
+    nodes {n7 n15}
+    bandwidth 100000000
+}
+
+link l15 {
+    delay 2000
+    nodes {n7 n16}
+    bandwidth 100000000
+}
+
+link l16 {
+    delay 2000
+    nodes {n16 n17}
+    bandwidth 100000000
+}
+
+link l17 {
+    delay 2000
+    nodes {n17 n18}
+    bandwidth 100000000
+}
+
+link l18 {
+    delay 2000
+    nodes {n18 n19}
+    bandwidth 100000000
+}
+
+link l19 {
+    delay 2000
+    nodes {n19 n20}
+    bandwidth 100000000
+}
+
+link l20 {
+    delay 2000
+    nodes {n20 n21}
+    bandwidth 100000000
+}
+
+link l21 {
+    delay 2000
+    nodes {n21 n22}
+    bandwidth 100000000
+}
+
+link l22 {
+    delay 2000
+    nodes {n22 n23}
+    bandwidth 100000000
+}
+
+link l23 {
+    delay 2000
+    nodes {n16 n24}
+    bandwidth 100000000
+}
+
+link l24 {
+    delay 2000
+    nodes {n17 n25}
+    bandwidth 100000000
+}
+
+link l25 {
+    delay 2000
+    nodes {n18 n26}
+    bandwidth 100000000
+}
+
+link l26 {
+    delay 2000
+    nodes {n19 n27}
+    bandwidth 100000000
+}
+
+link l27 {
+    delay 2000
+    nodes {n20 n28}
+    bandwidth 100000000
+}
+
+link l28 {
+    delay 2000
+    nodes {n21 n29}
+    bandwidth 100000000
+}
+
+link l29 {
+    delay 2000
+    nodes {n22 n30}
+    bandwidth 100000000
+}
+
+link l30 {
+    delay 2000
+    nodes {n23 n31}
+    bandwidth 100000000
+}
+
+link l31 {
+    delay 2000
+    nodes {n23 n32}
+    bandwidth 100000000
+}
+
+link l32 {
+    delay 2000
+    nodes {n32 n33}
+    bandwidth 100000000
+}
+
+link l33 {
+    delay 2000
+    nodes {n33 n34}
+    bandwidth 100000000
+}
+
+link l34 {
+    delay 2000
+    nodes {n34 n35}
+    bandwidth 100000000
+}
+
+link l35 {
+    delay 2000
+    nodes {n35 n36}
+    bandwidth 100000000
+}
+
+link l36 {
+    delay 2000
+    nodes {n36 n37}
+    bandwidth 100000000
+}
+
+link l37 {
+    delay 2000
+    nodes {n37 n38}
+    bandwidth 100000000
+}
+
+link l38 {
+    delay 2000
+    nodes {n38 n39}
+    bandwidth 100000000
+}
+
+link l39 {
+    delay 2000
+    nodes {n39 n40}
+    bandwidth 100000000
+}
+
+link l40 {
+    delay 2000
+    nodes {n38 n41}
+    bandwidth 100000000
+}
+
+link l41 {
+    delay 2000
+    nodes {n37 n42}
+    bandwidth 100000000
+}
+
+link l42 {
+    delay 2000
+    nodes {n36 n43}
+    bandwidth 100000000
+}
+
+link l43 {
+    delay 2000
+    nodes {n35 n44}
+    bandwidth 100000000
+}
+
+link l44 {
+    delay 2000
+    nodes {n34 n45}
+    bandwidth 100000000
+}
+
+link l45 {
+    delay 2000
+    nodes {n33 n46}
+    bandwidth 100000000
+}
+
+link l46 {
+    delay 2000
+    nodes {n32 n47}
+    bandwidth 100000000
+}
+
+link l47 {
+    delay 2000
+    nodes {n32 n48}
+    bandwidth 100000000
+}
+
+link l48 {
+    delay 2000
+    nodes {n48 n49}
+    bandwidth 100000000
+}
+
+link l49 {
+    delay 2000
+    nodes {n49 n50}
+    bandwidth 100000000
+}
+
+link l50 {
+    delay 2000
+    nodes {n50 n51}
+    bandwidth 100000000
+}
+
+link l51 {
+    delay 2000
+    nodes {n51 n52}
+    bandwidth 100000000
+}
+
+link l52 {
+    delay 2000
+    nodes {n52 n53}
+    bandwidth 100000000
+}
+
+link l53 {
+    delay 2000
+    nodes {n53 n54}
+    bandwidth 100000000
+}
+
+link l54 {
+    delay 2000
+    nodes {n54 n55}
+    bandwidth 100000000
+}
+
+link l55 {
+    delay 2000
+    nodes {n48 n56}
+    bandwidth 100000000
+}
+
+link l56 {
+    delay 2000
+    nodes {n49 n57}
+    bandwidth 100000000
+}
+
+link l57 {
+    delay 2000
+    nodes {n50 n58}
+    bandwidth 100000000
+}
+
+link l58 {
+    delay 2000
+    nodes {n51 n59}
+    bandwidth 100000000
+}
+
+link l59 {
+    delay 2000
+    nodes {n52 n60}
+    bandwidth 100000000
+}
+
+link l60 {
+    delay 2000
+    nodes {n53 n61}
+    bandwidth 100000000
+}
+
+link l61 {
+    delay 2000
+    nodes {n54 n62}
+    bandwidth 100000000
+}
+
+link l62 {
+    delay 2000
+    nodes {n55 n63}
+    bandwidth 100000000
+}
+
+canvas c0 {
+    name {Canvas0}
+    size {2080 1840}
+}
+
+option show {
+    interface_names yes
+    ip_addresses yes
+    ipv6_addresses yes
+    node_labels yes
+    link_labels yes
+    background_images no
+    annotations yes
+    hostsAutoAssign no
+    grid yes
+    iconSize normal
+    zoom 0.8
+}
+
