@@ -1,0 +1,1313 @@
+single_2
+
+ping
+
+PING 10.0.0.11 (10.0.0.11) 56(84) bytes of data.
+64 bytes from 10.0.0.11: icmp_seq=1 ttl=64 time=17.5 ms
+64 bytes from 10.0.0.11: icmp_seq=2 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.11: icmp_seq=3 ttl=64 time=9.06 ms
+64 bytes from 10.0.0.11: icmp_seq=4 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.11: icmp_seq=5 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.11: icmp_seq=6 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.11: icmp_seq=7 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=8 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=9 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.11: icmp_seq=10 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=11 ttl=64 time=9.00 ms
+64 bytes from 10.0.0.11: icmp_seq=12 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.11: icmp_seq=13 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.11: icmp_seq=14 ttl=64 time=8.98 ms
+64 bytes from 10.0.0.11: icmp_seq=15 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.11: icmp_seq=16 ttl=64 time=8.99 ms
+64 bytes from 10.0.0.11: icmp_seq=17 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=18 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.11: icmp_seq=19 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.11: icmp_seq=20 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.11: icmp_seq=21 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.11: icmp_seq=22 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.11: icmp_seq=23 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.11: icmp_seq=24 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.11: icmp_seq=25 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.11: icmp_seq=26 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.11: icmp_seq=27 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.11: icmp_seq=28 ttl=64 time=9.00 ms
+64 bytes from 10.0.0.11: icmp_seq=29 ttl=64 time=9.04 ms
+64 bytes from 10.0.0.11: icmp_seq=30 ttl=64 time=8.12 ms
+
+--- 10.0.0.11 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29035ms
+rtt min/avg/max/mdev = 8.105/8.673/17.507/1.676 ms
+
+PING 10.0.0.11 (10.0.0.11) 56(84) bytes of data.
+64 bytes from 10.0.0.11: icmp_seq=1 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.11: icmp_seq=2 ttl=64 time=8.98 ms
+64 bytes from 10.0.0.11: icmp_seq=3 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.11: icmp_seq=4 ttl=64 time=8.98 ms
+64 bytes from 10.0.0.11: icmp_seq=5 ttl=64 time=9.06 ms
+64 bytes from 10.0.0.11: icmp_seq=6 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=7 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.11: icmp_seq=8 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.11: icmp_seq=9 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.11: icmp_seq=10 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.11: icmp_seq=11 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.11: icmp_seq=12 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.11: icmp_seq=13 ttl=64 time=9.02 ms
+64 bytes from 10.0.0.11: icmp_seq=14 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.11: icmp_seq=15 ttl=64 time=9.02 ms
+64 bytes from 10.0.0.11: icmp_seq=16 ttl=64 time=9.07 ms
+64 bytes from 10.0.0.11: icmp_seq=17 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.11: icmp_seq=18 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.11: icmp_seq=19 ttl=64 time=9.04 ms
+64 bytes from 10.0.0.11: icmp_seq=20 ttl=64 time=9.08 ms
+64 bytes from 10.0.0.11: icmp_seq=21 ttl=64 time=8.43 ms
+64 bytes from 10.0.0.11: icmp_seq=22 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.11: icmp_seq=23 ttl=64 time=9.07 ms
+64 bytes from 10.0.0.11: icmp_seq=24 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.11: icmp_seq=25 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.11: icmp_seq=26 ttl=64 time=8.56 ms
+64 bytes from 10.0.0.11: icmp_seq=27 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.11: icmp_seq=28 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.11: icmp_seq=29 ttl=64 time=9.06 ms
+64 bytes from 10.0.0.11: icmp_seq=30 ttl=64 time=8.29 ms
+
+--- 10.0.0.11 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29036ms
+rtt min/avg/max/mdev = 8.111/8.516/9.088/0.391 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.10 port 5566 connected with 10.0.0.11 port 60821
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  11.6 MBytes  97.2 Mbits/sec
+[  4]  1.0- 2.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  4.0- 5.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  7.0- 8.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  0.0-10.3 sec   121 MBytes  99.2 Mbits/sec
+[  5] local 10.0.0.10 port 5566 connected with 10.0.0.11 port 60842
+[  5]  0.0- 1.0 sec  11.6 MBytes  97.4 Mbits/sec
+[  5]  1.0- 2.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  4.0- 5.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   121 MBytes  99.2 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.10 port 5566 connected with 10.0.0.11 port 60573
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8256 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.004 ms    0/ 8264 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms    0/ 8267 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  112/ 8379 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.010 ms  280/ 8547 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8544 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8547 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8548 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.1 Mbits/sec   0.093 ms  279/ 8540 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.006 ms 1823/85470 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.10 port 5566 connected with 10.0.0.11 port 51701
+[  4]  0.0- 1.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms    0/ 8262 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms    0/ 8264 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.011 ms    0/ 8259 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.015 ms  104/ 8371 (1.2%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  279/ 8547 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8547 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.014 ms  280/ 8547 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.049 ms  288/ 8556 (3.4%)
+[  4]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.007 ms 1815/85470 (2.1%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+single_8
+
+ping
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=17.4 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=8.88 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=8.88 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=9.03 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=9.05 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=8.99 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=9.03 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=8.29 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=9.00 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=8.10 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29037ms
+rtt min/avg/max/mdev = 8.102/8.782/17.462/1.657 ms
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=8.99 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=8.93 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=8.86 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=8.98 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=8.31 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=9.03 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=8.20 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=9.03 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=8.13 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=9.04 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=8.10 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29035ms
+rtt min/avg/max/mdev = 8.100/8.399/9.044/0.369 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 44771
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  11.6 MBytes  97.5 Mbits/sec
+[  4]  1.0- 2.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  2.0- 3.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  4]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  4.0- 5.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  4]  7.0- 8.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  0.0-10.3 sec   122 MBytes  99.2 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 44792
+[  5]  0.0- 1.0 sec  11.6 MBytes  97.4 Mbits/sec
+[  5]  1.0- 2.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  4.0- 5.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   122 MBytes  99.2 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 44638
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.6 MBytes  97.1 Mbits/sec   0.008 ms    0/ 8259 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms    0/ 8265 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms    0/ 8267 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  108/ 8375 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms  280/ 8540 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  280/ 8547 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  280/ 8547 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  279/ 8547 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8546 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.008 ms 1821/85471 (2.1%)
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 49767
+[  4]  0.0- 1.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8261 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms    0/ 8267 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms    0/ 8265 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.1 Mbits/sec   0.012 ms  104/ 8362 (1.2%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  280/ 8548 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8546 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.010 ms  280/ 8547 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  280/ 8547 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  280/ 8547 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.049 ms  280/ 8548 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.007 ms 1815/85470 (2.1%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+single_32
+
+ping
+
+PING 10.0.0.51 (10.0.0.51) 56(84) bytes of data.
+64 bytes from 10.0.0.51: icmp_seq=1 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.51: icmp_seq=2 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.51: icmp_seq=3 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.51: icmp_seq=4 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.51: icmp_seq=5 ttl=64 time=9.09 ms
+64 bytes from 10.0.0.51: icmp_seq=6 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.51: icmp_seq=7 ttl=64 time=8.94 ms
+64 bytes from 10.0.0.51: icmp_seq=8 ttl=64 time=8.20 ms
+64 bytes from 10.0.0.51: icmp_seq=9 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.51: icmp_seq=10 ttl=64 time=8.14 ms
+64 bytes from 10.0.0.51: icmp_seq=11 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.51: icmp_seq=12 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=13 ttl=64 time=8.29 ms
+64 bytes from 10.0.0.51: icmp_seq=14 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=15 ttl=64 time=8.98 ms
+64 bytes from 10.0.0.51: icmp_seq=16 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.51: icmp_seq=17 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.51: icmp_seq=18 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.51: icmp_seq=19 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.51: icmp_seq=20 ttl=64 time=8.21 ms
+64 bytes from 10.0.0.51: icmp_seq=21 ttl=64 time=9.06 ms
+64 bytes from 10.0.0.51: icmp_seq=22 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.51: icmp_seq=23 ttl=64 time=9.08 ms
+64 bytes from 10.0.0.51: icmp_seq=24 ttl=64 time=8.70 ms
+64 bytes from 10.0.0.51: icmp_seq=25 ttl=64 time=8.25 ms
+64 bytes from 10.0.0.51: icmp_seq=26 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=27 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.51: icmp_seq=28 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.51: icmp_seq=29 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.51: icmp_seq=30 ttl=64 time=8.12 ms
+
+--- 10.0.0.51 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29037ms
+rtt min/avg/max/mdev = 8.113/8.642/16.605/1.514 ms
+
+PING 10.0.0.51 (10.0.0.51) 56(84) bytes of data.
+64 bytes from 10.0.0.51: icmp_seq=1 ttl=64 time=8.12 ms
+64 bytes from 10.0.0.51: icmp_seq=2 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=3 ttl=64 time=8.72 ms
+64 bytes from 10.0.0.51: icmp_seq=4 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.51: icmp_seq=5 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.51: icmp_seq=6 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.51: icmp_seq=7 ttl=64 time=9.05 ms
+64 bytes from 10.0.0.51: icmp_seq=8 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.51: icmp_seq=9 ttl=64 time=8.20 ms
+64 bytes from 10.0.0.51: icmp_seq=10 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.51: icmp_seq=11 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=12 ttl=64 time=8.23 ms
+64 bytes from 10.0.0.51: icmp_seq=13 ttl=64 time=8.11 ms
+64 bytes from 10.0.0.51: icmp_seq=14 ttl=64 time=9.02 ms
+64 bytes from 10.0.0.51: icmp_seq=15 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.51: icmp_seq=16 ttl=64 time=9.00 ms
+64 bytes from 10.0.0.51: icmp_seq=17 ttl=64 time=9.01 ms
+64 bytes from 10.0.0.51: icmp_seq=18 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.51: icmp_seq=19 ttl=64 time=8.22 ms
+64 bytes from 10.0.0.51: icmp_seq=20 ttl=64 time=8.13 ms
+64 bytes from 10.0.0.51: icmp_seq=21 ttl=64 time=8.19 ms
+64 bytes from 10.0.0.51: icmp_seq=22 ttl=64 time=8.10 ms
+64 bytes from 10.0.0.51: icmp_seq=23 ttl=64 time=8.18 ms
+64 bytes from 10.0.0.51: icmp_seq=24 ttl=64 time=8.09 ms
+64 bytes from 10.0.0.51: icmp_seq=25 ttl=64 time=8.28 ms
+64 bytes from 10.0.0.51: icmp_seq=26 ttl=64 time=8.26 ms
+64 bytes from 10.0.0.51: icmp_seq=27 ttl=64 time=9.05 ms
+64 bytes from 10.0.0.51: icmp_seq=28 ttl=64 time=8.27 ms
+64 bytes from 10.0.0.51: icmp_seq=29 ttl=64 time=8.24 ms
+64 bytes from 10.0.0.51: icmp_seq=30 ttl=64 time=8.27 ms
+
+--- 10.0.0.51 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29033ms
+rtt min/avg/max/mdev = 8.099/8.381/9.059/0.355 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 41737
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.9 Mbits/sec
+[  4]  1.0- 2.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  3.0- 4.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  4]  4.0- 5.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  5.0- 6.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  4]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  0.0-10.2 sec   121 MBytes  99.2 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 41758
+[  5]  0.0- 1.0 sec  11.6 MBytes  97.4 Mbits/sec
+[  5]  1.0- 2.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  4.0- 5.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   122 MBytes  99.2 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 42765
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.6 MBytes  97.1 Mbits/sec   0.007 ms    0/ 8257 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms    0/ 8265 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms    0/ 8267 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.1 Mbits/sec   0.007 ms  110/ 8365 (1.3%)
+[  3]  4.0- 5.0 sec  11.5 MBytes  96.8 Mbits/sec   0.012 ms  275/ 8510 (3.2%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  278/ 8545 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  276/ 8542 (3.2%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8546 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  280/ 8548 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  281/ 8547 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.016 ms 1814/85461 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 60288
+[  4]  0.0- 1.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8259 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms    0/ 8267 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8255 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  104/ 8371 (1.2%)
+[  4]  4.0- 5.0 sec  11.5 MBytes  96.8 Mbits/sec   0.009 ms  278/ 8509 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  280/ 8547 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8548 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.010 ms  280/ 8547 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8546 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8547 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.007 ms 1815/85470 (2.1%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+linear_2
+
+ping
+
+PING 10.0.0.21 (10.0.0.21) 56(84) bytes of data.
+64 bytes from 10.0.0.21: icmp_seq=1 ttl=64 time=25.7 ms
+64 bytes from 10.0.0.21: icmp_seq=2 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=3 ttl=64 time=12.4 ms
+64 bytes from 10.0.0.21: icmp_seq=4 ttl=64 time=12.4 ms
+64 bytes from 10.0.0.21: icmp_seq=5 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=6 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=7 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=8 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=9 ttl=64 time=12.2 ms
+64 bytes from 10.0.0.21: icmp_seq=10 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=11 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=12 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=13 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=14 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=15 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=16 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=17 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=18 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=19 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=20 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.21: icmp_seq=21 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=22 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=23 ttl=64 time=13.2 ms
+64 bytes from 10.0.0.21: icmp_seq=24 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=25 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=26 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=27 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=28 ttl=64 time=13.2 ms
+64 bytes from 10.0.0.21: icmp_seq=29 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.21: icmp_seq=30 ttl=64 time=12.1 ms
+
+--- 10.0.0.21 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29037ms
+rtt min/avg/max/mdev = 12.148/13.128/25.764/2.384 ms
+
+PING 10.0.0.21 (10.0.0.21) 56(84) bytes of data.
+64 bytes from 10.0.0.21: icmp_seq=1 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=2 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=3 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=4 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=5 ttl=64 time=12.9 ms
+64 bytes from 10.0.0.21: icmp_seq=6 ttl=64 time=12.2 ms
+64 bytes from 10.0.0.21: icmp_seq=7 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=8 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=9 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=10 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=11 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.21: icmp_seq=12 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=13 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=14 ttl=64 time=12.2 ms
+64 bytes from 10.0.0.21: icmp_seq=15 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=16 ttl=64 time=13.0 ms
+64 bytes from 10.0.0.21: icmp_seq=17 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=18 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=19 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=20 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=21 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=22 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=23 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=24 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=25 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=26 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=27 ttl=64 time=12.1 ms
+64 bytes from 10.0.0.21: icmp_seq=28 ttl=64 time=12.3 ms
+64 bytes from 10.0.0.21: icmp_seq=29 ttl=64 time=13.1 ms
+64 bytes from 10.0.0.21: icmp_seq=30 ttl=64 time=12.2 ms
+
+--- 10.0.0.21 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29036ms
+rtt min/avg/max/mdev = 12.148/12.462/13.170/0.369 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 36139
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  11.4 MBytes  95.7 Mbits/sec
+[  4]  1.0- 2.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  2.0- 3.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  4.0- 5.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  5.0- 6.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  7.0- 8.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  0.0-10.2 sec   121 MBytes  99.0 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 36180
+[  5]  0.0- 1.0 sec  11.4 MBytes  95.7 Mbits/sec
+[  5]  1.0- 2.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.8 MBytes  98.6 Mbits/sec
+[  5]  4.0- 5.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.7 MBytes  98.6 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   121 MBytes  98.9 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 60971
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.6 MBytes  97.0 Mbits/sec   0.009 ms    0/ 8251 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8255 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.009 ms    0/ 8258 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  105/ 8372 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  280/ 8547 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  280/ 8547 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8547 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8548 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.076 ms  279/ 8545 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.008 ms 1818/85470 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 49536
+[  4]  0.0- 1.0 sec  11.6 MBytes  96.9 Mbits/sec   0.007 ms    0/ 8244 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms    0/ 8267 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.004 ms    0/ 8267 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  103/ 8370 (1.2%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  280/ 8547 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.1 Mbits/sec   0.007 ms  280/ 8536 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8547 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  277/ 8544 (3.2%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8546 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.055 ms  280/ 8548 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.009 ms 1813/85467 (2.1%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+linear_8
+
+ping
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=76.4 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=43.3 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=40.1 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=38.4 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=36.3 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=38.7 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=37.8 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=37.4 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=37.5 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=38.3 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=36.9 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=37.4 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=38.0 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=37.6 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=37.0 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29042ms
+rtt min/avg/max/mdev = 36.363/39.561/76.469/6.955 ms
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=37.8 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=37.8 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=37.2 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=38.6 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=38.2 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=50.0 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=37.8 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=37.3 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=37.2 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=37.3 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=38.7 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=38.0 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=38.5 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=37.7 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=37.1 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=38.7 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=37.2 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=38.4 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29044ms
+rtt min/avg/max/mdev = 37.179/38.331/50.050/2.235 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 46643
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  9.81 MBytes  82.3 Mbits/sec
+[  4]  1.0- 2.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  2.0- 3.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  4.0- 5.0 sec  11.8 MBytes  99.1 Mbits/sec
+[  4]  5.0- 6.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  8.0- 9.0 sec  11.7 MBytes  97.9 Mbits/sec
+[  4]  9.0-10.0 sec  11.8 MBytes  98.6 Mbits/sec
+[  4]  0.0-10.2 sec   119 MBytes  97.4 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 46684
+[  5]  0.0- 1.0 sec  8.97 MBytes  75.3 Mbits/sec
+[  5]  1.0- 2.0 sec  11.6 MBytes  97.6 Mbits/sec
+[  5]  2.0- 3.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  3.0- 4.0 sec  11.8 MBytes  99.1 Mbits/sec
+[  5]  4.0- 5.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  6.0- 7.0 sec  11.8 MBytes  98.9 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  8.0- 9.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  5]  9.0-10.0 sec  11.7 MBytes  98.4 Mbits/sec
+[  5]  0.0-10.3 sec   119 MBytes  96.6 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 58244
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.5 MBytes  96.8 Mbits/sec   0.010 ms    0/ 8234 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8257 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.111 ms    0/ 8255 (0%)
+[  3]  3.0- 4.0 sec  11.5 MBytes  96.8 Mbits/sec   0.005 ms  107/ 8342 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8545 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8543 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8547 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  280/ 8546 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  96.9 Mbits/sec   0.006 ms  279/ 8520 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.059 ms  287/ 8553 (3.4%)
+[  3]  0.0-10.1 sec   117 MBytes  97.1 Mbits/sec   0.009 ms 1821/85470 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 54998
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.6 Mbits/sec   0.005 ms    0/ 8216 (0%)
+[  4]  1.0- 2.0 sec  11.5 MBytes  96.8 Mbits/sec   0.008 ms    0/ 8231 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8260 (0%)
+[  4]  3.0- 4.0 sec  11.4 MBytes  95.4 Mbits/sec   0.012 ms  108/ 8220 (1.3%)
+[  4]  4.0- 5.0 sec  11.5 MBytes  96.8 Mbits/sec   0.036 ms  280/ 8512 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  278/ 8541 (3.3%)
+[  4]  6.0- 7.0 sec  11.5 MBytes  96.8 Mbits/sec   0.011 ms  279/ 8511 (3.3%)
+[  4]  7.0- 8.0 sec  11.5 MBytes  96.6 Mbits/sec   0.007 ms  278/ 8494 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.013 ms  279/ 8545 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8546 (3.3%)
+[  4]  0.0-10.2 sec   117 MBytes  96.8 Mbits/sec   0.010 ms 1827/85464 (2.1%)
+[  4]  0.0-10.2 sec  1 datagrams received out-of-order
+
+
+linear_32
+
+ping
+
+PING 10.0.0.51 (10.0.0.51) 56(84) bytes of data.
+64 bytes from 10.0.0.51: icmp_seq=1 ttl=64 time=221 ms
+64 bytes from 10.0.0.51: icmp_seq=2 ttl=64 time=114 ms
+64 bytes from 10.0.0.51: icmp_seq=3 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=4 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=5 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=6 ttl=64 time=138 ms
+64 bytes from 10.0.0.51: icmp_seq=7 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=8 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=9 ttl=64 time=204 ms
+64 bytes from 10.0.0.51: icmp_seq=10 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=11 ttl=64 time=115 ms
+64 bytes from 10.0.0.51: icmp_seq=12 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=13 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=14 ttl=64 time=108 ms
+64 bytes from 10.0.0.51: icmp_seq=15 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=16 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=17 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=18 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=19 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=20 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=21 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=22 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=23 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=24 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=25 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=26 ttl=64 time=112 ms
+64 bytes from 10.0.0.51: icmp_seq=27 ttl=64 time=108 ms
+64 bytes from 10.0.0.51: icmp_seq=28 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=29 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=30 ttl=64 time=112 ms
+
+--- 10.0.0.51 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29008ms
+rtt min/avg/max/mdev = 108.634/118.595/221.808/25.912 ms
+
+PING 10.0.0.51 (10.0.0.51) 56(84) bytes of data.
+64 bytes from 10.0.0.51: icmp_seq=1 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=2 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=3 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=4 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=5 ttl=64 time=112 ms
+64 bytes from 10.0.0.51: icmp_seq=6 ttl=64 time=121 ms
+64 bytes from 10.0.0.51: icmp_seq=7 ttl=64 time=115 ms
+64 bytes from 10.0.0.51: icmp_seq=8 ttl=64 time=114 ms
+64 bytes from 10.0.0.51: icmp_seq=9 ttl=64 time=113 ms
+64 bytes from 10.0.0.51: icmp_seq=10 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=11 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=12 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=13 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=14 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=15 ttl=64 time=112 ms
+64 bytes from 10.0.0.51: icmp_seq=16 ttl=64 time=108 ms
+64 bytes from 10.0.0.51: icmp_seq=17 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=18 ttl=64 time=113 ms
+64 bytes from 10.0.0.51: icmp_seq=19 ttl=64 time=113 ms
+64 bytes from 10.0.0.51: icmp_seq=20 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=21 ttl=64 time=112 ms
+64 bytes from 10.0.0.51: icmp_seq=22 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=23 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=24 ttl=64 time=109 ms
+64 bytes from 10.0.0.51: icmp_seq=25 ttl=64 time=108 ms
+64 bytes from 10.0.0.51: icmp_seq=26 ttl=64 time=110 ms
+64 bytes from 10.0.0.51: icmp_seq=27 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=28 ttl=64 time=113 ms
+64 bytes from 10.0.0.51: icmp_seq=29 ttl=64 time=111 ms
+64 bytes from 10.0.0.51: icmp_seq=30 ttl=64 time=117 ms
+
+--- 10.0.0.51 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29043ms
+rtt min/avg/max/mdev = 108.519/111.958/121.929/2.722 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 43649
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  1.99 MBytes  16.7 Mbits/sec
+[  4]  1.0- 2.0 sec  5.10 MBytes  42.8 Mbits/sec
+[  4]  2.0- 3.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4]  3.0- 4.0 sec  9.45 MBytes  79.2 Mbits/sec
+[  4]  4.0- 5.0 sec  11.2 MBytes  94.2 Mbits/sec
+[  4]  5.0- 6.0 sec  11.8 MBytes  98.6 Mbits/sec
+[  4]  6.0- 7.0 sec  11.7 MBytes  98.0 Mbits/sec
+[  4]  7.0- 8.0 sec  11.8 MBytes  99.1 Mbits/sec
+[  4]  8.0- 9.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  4]  9.0-10.0 sec  11.6 MBytes  97.6 Mbits/sec
+[  4]  0.0-10.2 sec  95.8 MBytes  78.8 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 43670
+[  5]  0.0- 1.0 sec  4.06 MBytes  34.1 Mbits/sec
+[  5]  1.0- 2.0 sec  11.6 MBytes  97.5 Mbits/sec
+[  5]  2.0- 3.0 sec  11.1 MBytes  93.1 Mbits/sec
+[  5]  3.0- 4.0 sec  11.6 MBytes  97.1 Mbits/sec
+[  5]  4.0- 5.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  5.0- 6.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  6.0- 7.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  7.0- 8.0 sec  11.7 MBytes  97.9 Mbits/sec
+[  5]  8.0- 9.0 sec  11.7 MBytes  98.4 Mbits/sec
+[  5]  9.0-10.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  5]  0.0-10.2 sec   112 MBytes  91.7 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 41226
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.1 MBytes  93.2 Mbits/sec   0.005 ms    0/ 7922 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.0 Mbits/sec   0.009 ms    0/ 8252 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.008 ms    0/ 8256 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.1 Mbits/sec   0.010 ms   81/ 8342 (0.97%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.1 Mbits/sec   0.011 ms  280/ 8539 (3.3%)
+[  3]  5.0- 6.0 sec  11.3 MBytes  94.8 Mbits/sec   0.007 ms  335/ 8398 (4%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.1 Mbits/sec   0.087 ms  280/ 8539 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.1 Mbits/sec   0.013 ms  279/ 8534 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.076 ms  280/ 8546 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.113 ms  280/ 8547 (3.3%)
+[  3]  0.0-10.2 sec   117 MBytes  96.4 Mbits/sec   0.061 ms 1898/85359 (2.2%)
+[  3]  0.0-10.2 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.51 port 56170
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.2 Mbits/sec   0.006 ms    0/ 8180 (0%)
+[  4]  1.0- 2.0 sec  11.5 MBytes  96.7 Mbits/sec   0.008 ms    0/ 8221 (0%)
+[  4]  2.0- 3.0 sec  11.3 MBytes  94.9 Mbits/sec   0.042 ms    0/ 8066 (0%)
+[  4]  3.0- 4.0 sec  11.5 MBytes  96.8 Mbits/sec   0.010 ms   94/ 8329 (1.1%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.1 Mbits/sec   0.010 ms  280/ 8540 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8542 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  279/ 8543 (3.3%)
+[  4]  7.0- 8.0 sec  11.4 MBytes  95.6 Mbits/sec   0.034 ms  269/ 8395 (3.2%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.0 Mbits/sec   0.014 ms  273/ 8520 (3.2%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.1 Mbits/sec   0.075 ms  263/ 8520 (3.1%)
+[  4]  0.0-10.2 sec   117 MBytes  96.6 Mbits/sec   0.178 ms 1784/85415 (2.1%)
+[  4]  0.0-10.2 sec  1 datagrams received out-of-order
+
+
+tree_l2s3
+
+ping
+
+PING 10.0.0.21 (10.0.0.21) 56(84) bytes of data.
+64 bytes from 10.0.0.21: icmp_seq=1 ttl=64 time=33.4 ms
+64 bytes from 10.0.0.21: icmp_seq=2 ttl=64 time=16.7 ms
+64 bytes from 10.0.0.21: icmp_seq=3 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=4 ttl=64 time=17.3 ms
+64 bytes from 10.0.0.21: icmp_seq=5 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.21: icmp_seq=6 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=7 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=8 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=9 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=10 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=11 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=12 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=13 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=14 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=15 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=16 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=17 ttl=64 time=16.7 ms
+64 bytes from 10.0.0.21: icmp_seq=18 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=19 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=20 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=21 ttl=64 time=17.1 ms
+64 bytes from 10.0.0.21: icmp_seq=22 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=23 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=24 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=25 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=26 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.21: icmp_seq=27 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=28 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=29 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=30 ttl=64 time=17.3 ms
+
+--- 10.0.0.21 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29041ms
+rtt min/avg/max/mdev = 16.169/17.283/33.401/3.026 ms
+
+PING 10.0.0.21 (10.0.0.21) 56(84) bytes of data.
+64 bytes from 10.0.0.21: icmp_seq=1 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=2 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=3 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.21: icmp_seq=4 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=5 ttl=64 time=16.1 ms
+64 bytes from 10.0.0.21: icmp_seq=6 ttl=64 time=16.7 ms
+64 bytes from 10.0.0.21: icmp_seq=7 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=8 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=9 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=10 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=11 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=12 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=13 ttl=64 time=17.2 ms
+64 bytes from 10.0.0.21: icmp_seq=14 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=15 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=16 ttl=64 time=17.0 ms
+64 bytes from 10.0.0.21: icmp_seq=17 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=18 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=19 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=20 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=21 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=22 ttl=64 time=16.5 ms
+64 bytes from 10.0.0.21: icmp_seq=23 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.21: icmp_seq=24 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=25 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=26 ttl=64 time=16.4 ms
+64 bytes from 10.0.0.21: icmp_seq=27 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=28 ttl=64 time=16.2 ms
+64 bytes from 10.0.0.21: icmp_seq=29 ttl=64 time=16.3 ms
+64 bytes from 10.0.0.21: icmp_seq=30 ttl=64 time=16.3 ms
+
+--- 10.0.0.21 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29039ms
+rtt min/avg/max/mdev = 16.182/16.508/17.285/0.362 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 38275
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  11.2 MBytes  93.6 Mbits/sec
+[  4]  1.0- 2.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  3.0- 4.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  4.0- 5.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  5.0- 6.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  6.0- 7.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  8.0- 9.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  9.0-10.0 sec  11.8 MBytes  98.7 Mbits/sec
+[  4]  0.0-10.2 sec   120 MBytes  98.8 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 38296
+[  5]  0.0- 1.0 sec  11.2 MBytes  93.7 Mbits/sec
+[  5]  1.0- 2.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  2.0- 3.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  4.0- 5.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  7.0- 8.0 sec  11.8 MBytes  98.9 Mbits/sec
+[  5]  8.0- 9.0 sec  11.7 MBytes  98.1 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   121 MBytes  98.6 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 38829
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.5 MBytes  96.8 Mbits/sec   0.008 ms    0/ 8235 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms    0/ 8264 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms    0/ 8264 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  108/ 8375 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  280/ 8547 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.1 Mbits/sec   0.008 ms  279/ 8532 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.011 ms  280/ 8548 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  275/ 8542 (3.2%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8547 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.030 ms  280/ 8547 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.2 Mbits/sec   0.011 ms 1816/85466 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.21 port 40836
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.7 Mbits/sec   0.015 ms    0/ 8226 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.2 Mbits/sec   0.010 ms    0/ 8265 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.022 ms    0/ 8265 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  130/ 8397 (1.5%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.1 Mbits/sec   0.014 ms  280/ 8538 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.022 ms  280/ 8548 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.035 ms  280/ 8546 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.032 ms  276/ 8542 (3.2%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.052 ms  280/ 8547 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.1 Mbits/sec   0.058 ms  283/ 8536 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.1 Mbits/sec   0.009 ms 1839/85466 (2.2%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+tree_l3s7
+
+ping
+
+PING 10.0.0.23 (10.0.0.23) 56(84) bytes of data.
+64 bytes from 10.0.0.23: icmp_seq=1 ttl=64 time=50.6 ms
+64 bytes from 10.0.0.23: icmp_seq=2 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.23: icmp_seq=3 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.23: icmp_seq=4 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.23: icmp_seq=5 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=6 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=7 ttl=64 time=24.8 ms
+64 bytes from 10.0.0.23: icmp_seq=8 ttl=64 time=26.3 ms
+64 bytes from 10.0.0.23: icmp_seq=9 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=10 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=11 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=12 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=13 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.23: icmp_seq=14 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.23: icmp_seq=15 ttl=64 time=26.2 ms
+64 bytes from 10.0.0.23: icmp_seq=16 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=17 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=18 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=19 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=20 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=21 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=22 ttl=64 time=24.7 ms
+64 bytes from 10.0.0.23: icmp_seq=23 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=24 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=25 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=26 ttl=64 time=24.8 ms
+64 bytes from 10.0.0.23: icmp_seq=27 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.23: icmp_seq=28 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=29 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=30 ttl=64 time=25.5 ms
+
+--- 10.0.0.23 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29042ms
+rtt min/avg/max/mdev = 24.272/26.129/50.697/4.585 ms
+
+PING 10.0.0.23 (10.0.0.23) 56(84) bytes of data.
+64 bytes from 10.0.0.23: icmp_seq=1 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=2 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=3 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.23: icmp_seq=4 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=5 ttl=64 time=24.8 ms
+64 bytes from 10.0.0.23: icmp_seq=6 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=7 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=8 ttl=64 time=24.5 ms
+64 bytes from 10.0.0.23: icmp_seq=9 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=10 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.23: icmp_seq=11 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.23: icmp_seq=12 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=13 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=14 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=15 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=16 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=17 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=18 ttl=64 time=24.2 ms
+64 bytes from 10.0.0.23: icmp_seq=19 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=20 ttl=64 time=25.6 ms
+64 bytes from 10.0.0.23: icmp_seq=21 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=22 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=23 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.23: icmp_seq=24 ttl=64 time=25.9 ms
+64 bytes from 10.0.0.23: icmp_seq=25 ttl=64 time=25.5 ms
+64 bytes from 10.0.0.23: icmp_seq=26 ttl=64 time=25.4 ms
+64 bytes from 10.0.0.23: icmp_seq=27 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=28 ttl=64 time=26.2 ms
+64 bytes from 10.0.0.23: icmp_seq=29 ttl=64 time=24.6 ms
+64 bytes from 10.0.0.23: icmp_seq=30 ttl=64 time=25.4 ms
+
+--- 10.0.0.23 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29041ms
+rtt min/avg/max/mdev = 24.265/25.229/26.263/0.551 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.23 port 53597
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  10.7 MBytes  89.7 Mbits/sec
+[  4]  1.0- 2.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  3.0- 4.0 sec  11.8 MBytes  99.3 Mbits/sec
+[  4]  4.0- 5.0 sec  11.8 MBytes  99.1 Mbits/sec
+[  4]  5.0- 6.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  6.0- 7.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  7.0- 8.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  4]  0.0-10.3 sec   120 MBytes  98.3 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.23 port 53618
+[  5]  0.0- 1.0 sec  10.6 MBytes  88.5 Mbits/sec
+[  5]  1.0- 2.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.8 MBytes  99.1 Mbits/sec
+[  5]  4.0- 5.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  5.0- 6.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  6.0- 7.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.8 MBytes  98.8 Mbits/sec
+[  5]  9.0-10.0 sec  11.7 MBytes  98.5 Mbits/sec
+[  5]  0.0-10.3 sec   120 MBytes  98.1 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.23 port 40519
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.5 MBytes  96.5 Mbits/sec   0.008 ms    0/ 8209 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8261 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms    0/ 8267 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.017 ms  109/ 8375 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  280/ 8546 (3.3%)
+[  3]  5.0- 6.0 sec  11.6 MBytes  97.0 Mbits/sec   0.006 ms  279/ 8528 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8546 (3.3%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8544 (3.3%)
+[  3]  8.0- 9.0 sec  11.3 MBytes  94.6 Mbits/sec   0.008 ms 1501/ 9544 (16%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.1 Mbits/sec   0.018 ms    0/ 8254 (0%)
+[  3]  0.0-10.0 sec   116 MBytes  96.8 Mbits/sec   0.011 ms 2728/85467 (3.2%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.23 port 43400
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.7 Mbits/sec   0.005 ms    0/ 8223 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8261 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms    0/ 8265 (0%)
+[  4]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  128/ 8393 (1.5%)
+[  4]  4.0- 5.0 sec  11.6 MBytes  97.1 Mbits/sec   0.010 ms  279/ 8532 (3.3%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  280/ 8545 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.014 ms  280/ 8547 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.007 ms  279/ 8546 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  280/ 8547 (3.3%)
+[  4]  9.0-10.0 sec  11.6 MBytes  97.1 Mbits/sec   0.014 ms  280/ 8533 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.1 Mbits/sec   0.008 ms 1840/85470 (2.2%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+
+tree_l4s15
+
+ping
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=67.3 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=32.7 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=32.8 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=33.0 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=33.2 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=32.4 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=35.1 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=33.9 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=33.2 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=34.2 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=34.5 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=34.6 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29046ms
+rtt min/avg/max/mdev = 32.357/34.696/67.356/6.110 ms
+
+PING 10.0.0.27 (10.0.0.27) 56(84) bytes of data.
+64 bytes from 10.0.0.27: icmp_seq=1 ttl=64 time=32.5 ms
+64 bytes from 10.0.0.27: icmp_seq=2 ttl=64 time=33.9 ms
+64 bytes from 10.0.0.27: icmp_seq=3 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.27: icmp_seq=4 ttl=64 time=32.4 ms
+64 bytes from 10.0.0.27: icmp_seq=5 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.27: icmp_seq=6 ttl=64 time=35.6 ms
+64 bytes from 10.0.0.27: icmp_seq=7 ttl=64 time=34.0 ms
+64 bytes from 10.0.0.27: icmp_seq=8 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.27: icmp_seq=9 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=10 ttl=64 time=33.1 ms
+64 bytes from 10.0.0.27: icmp_seq=11 ttl=64 time=33.6 ms
+64 bytes from 10.0.0.27: icmp_seq=12 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.27: icmp_seq=13 ttl=64 time=32.9 ms
+64 bytes from 10.0.0.27: icmp_seq=14 ttl=64 time=34.6 ms
+64 bytes from 10.0.0.27: icmp_seq=15 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=16 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=17 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=18 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=19 ttl=64 time=35.1 ms
+64 bytes from 10.0.0.27: icmp_seq=20 ttl=64 time=33.5 ms
+64 bytes from 10.0.0.27: icmp_seq=21 ttl=64 time=34.5 ms
+64 bytes from 10.0.0.27: icmp_seq=22 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=23 ttl=64 time=33.1 ms
+64 bytes from 10.0.0.27: icmp_seq=24 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=25 ttl=64 time=32.3 ms
+64 bytes from 10.0.0.27: icmp_seq=26 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=27 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=28 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.27: icmp_seq=29 ttl=64 time=33.8 ms
+64 bytes from 10.0.0.27: icmp_seq=30 ttl=64 time=33.7 ms
+
+--- 10.0.0.27 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29041ms
+rtt min/avg/max/mdev = 32.349/33.641/35.685/0.773 ms
+
+
+tcp
+
+------------------------------------------------------------
+Server listening on TCP port 5566
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 49884
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  9.92 MBytes  83.3 Mbits/sec
+[  4]  1.0- 2.0 sec  11.8 MBytes  98.7 Mbits/sec
+[  4]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  4.0- 5.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  5.0- 6.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  4]  6.0- 7.0 sec  11.8 MBytes  98.7 Mbits/sec
+[  4]  7.0- 8.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  4]  8.0- 9.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  0.0-10.2 sec   119 MBytes  97.6 Mbits/sec
+[  5] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 49905
+[  5]  0.0- 1.0 sec  9.92 MBytes  83.2 Mbits/sec
+[  5]  1.0- 2.0 sec  11.8 MBytes  99.2 Mbits/sec
+[  5]  2.0- 3.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  3.0- 4.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  4.0- 5.0 sec  11.8 MBytes  99.4 Mbits/sec
+[  5]  5.0- 6.0 sec  11.8 MBytes  98.7 Mbits/sec
+[  5]  6.0- 7.0 sec  11.9 MBytes  99.4 Mbits/sec
+[  5]  7.0- 8.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  8.0- 9.0 sec  11.5 MBytes  96.9 Mbits/sec
+[  5]  9.0-10.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  5]  0.0-10.3 sec   119 MBytes  97.4 Mbits/sec
+
+
+udp
+
+------------------------------------------------------------
+Server listening on UDP port 5566
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 55275
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  11.4 MBytes  95.7 Mbits/sec   0.016 ms    0/ 8135 (0%)
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8258 (0%)
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.006 ms    0/ 8261 (0%)
+[  3]  3.0- 4.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  105/ 8368 (1.3%)
+[  3]  4.0- 5.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  280/ 8542 (3.3%)
+[  3]  5.0- 6.0 sec  11.5 MBytes  96.8 Mbits/sec   0.012 ms  278/ 8508 (3.3%)
+[  3]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.012 ms  275/ 8542 (3.2%)
+[  3]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.045 ms  280/ 8547 (3.3%)
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  279/ 8546 (3.3%)
+[  3]  9.0-10.0 sec  11.6 MBytes  97.2 Mbits/sec   0.009 ms  280/ 8547 (3.3%)
+[  3]  0.0-10.1 sec   117 MBytes  97.0 Mbits/sec   0.011 ms 1816/85464 (2.1%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+[  4] local 10.0.0.20 port 5566 connected with 10.0.0.27 port 41554
+[  4]  0.0- 1.0 sec  11.5 MBytes  96.9 Mbits/sec   0.005 ms    0/ 8236 (0%)
+[  4]  1.0- 2.0 sec  11.6 MBytes  97.0 Mbits/sec   0.009 ms    0/ 8250 (0%)
+[  4]  2.0- 3.0 sec  11.6 MBytes  97.1 Mbits/sec   0.005 ms    0/ 8257 (0%)
+[  4]  3.0- 4.0 sec  11.5 MBytes  96.9 Mbits/sec   0.009 ms  127/ 8364 (1.5%)
+[  4]  4.0- 5.0 sec  11.5 MBytes  96.5 Mbits/sec   0.011 ms  275/ 8477 (3.2%)
+[  4]  5.0- 6.0 sec  11.6 MBytes  97.2 Mbits/sec   0.005 ms  279/ 8545 (3.3%)
+[  4]  6.0- 7.0 sec  11.6 MBytes  97.2 Mbits/sec   0.008 ms  280/ 8547 (3.3%)
+[  4]  7.0- 8.0 sec  11.6 MBytes  97.2 Mbits/sec   0.006 ms  280/ 8544 (3.3%)
+[  4]  8.0- 9.0 sec  11.6 MBytes  97.2 Mbits/sec   0.010 ms  280/ 8545 (3.3%)
+[  4]  9.0-10.0 sec  11.5 MBytes  96.5 Mbits/sec   0.008 ms  277/ 8483 (3.3%)
+[  4]  0.0-10.1 sec   117 MBytes  97.0 Mbits/sec   0.019 ms 1837/85467 (2.1%)
+[  4]  0.0-10.1 sec  1 datagrams received out-of-order
+
+

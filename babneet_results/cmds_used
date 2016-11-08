@@ -1,0 +1,13 @@
+ping -c 30 10.0.0.
+
+h1 ping -c 30 h2
+
+iperf -s -p 5566 -i 1
+
+iperf -c 10.0.0.1 -p 5566 -t 10; sleep 4; iperf -c 10.0.0.1 -p 5566 -t 10
+
+
+
+iperf -s -u -p 5566 -i 1 
+
+iperf -c 10.0.0.1 -p 5566 -u -b 100M; sleep 4; iperf -c 10.0.0.1 -p 5566 -u -b 100M
