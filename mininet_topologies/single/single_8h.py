@@ -37,21 +37,21 @@ def myNetwork():
     h4 = net.addHost('h4', cls=Host, ip='10.0.0.4', defaultRoute=None)
 
     info( '*** Add links\n')
-    h1s1 = {'bw':100,'delay':'2'}
+    h1s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h1, s1, cls=TCLink , **h1s1)
-    h2s1 = {'bw':100,'delay':'2'}
+    h2s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h2, s1, cls=TCLink , **h2s1)
-    h3s1 = {'bw':100,'delay':'2'}
+    h3s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h3, s1, cls=TCLink , **h3s1)
-    h4s1 = {'bw':100,'delay':'2'}
+    h4s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h4, s1, cls=TCLink , **h4s1)
-    h5s1 = {'bw':100,'delay':'2'}
+    h5s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h5, s1, cls=TCLink , **h5s1)
-    h6s1 = {'bw':100,'delay':'2'}
+    h6s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h6, s1, cls=TCLink , **h6s1)
-    h7s1 = {'bw':100,'delay':'2'}
+    h7s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h7, s1, cls=TCLink , **h7s1)
-    h8s1 = {'bw':100,'delay':'2'}
+    h8s1 = {'bw':100,'delay':'2ms'}
     net.addLink(h8, s1, cls=TCLink , **h8s1)
 
     info( '*** Starting network\n')

@@ -31,9 +31,9 @@ def myNetwork():
     h2 = net.addHost('h2', cls=Host, ip='10.0.0.2', defaultRoute=None)
 
     info( '*** Add links\n')
-    s1h1 = {'bw':100,'delay':'2'}
+    s1h1 = {'bw':100,'delay':'2ms'}
     net.addLink(s1, h1, cls=TCLink , **s1h1)
-    s1h2 = {'bw':100,'delay':'2'}
+    s1h2 = {'bw':100,'delay':'2ms'}
     net.addLink(s1, h2, cls=TCLink , **s1h2)
 
     info( '*** Starting network\n')
