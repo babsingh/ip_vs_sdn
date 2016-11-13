@@ -1149,378 +1149,504 @@ node n63 {
 }
 
 link l0 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n8 n0}
     bandwidth 100000000
 }
 
 link l1 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n0 n1}
     bandwidth 100000000
 }
 
 link l2 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n1 n9}
     bandwidth 100000000
 }
 
 link l3 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n1 n2}
     bandwidth 100000000
 }
 
 link l4 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n2 n10}
     bandwidth 100000000
 }
 
 link l5 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n2 n3}
     bandwidth 100000000
 }
 
 link l6 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n3 n11}
     bandwidth 100000000
 }
 
 link l7 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n3 n4}
     bandwidth 100000000
 }
 
 link l8 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n4 n12}
     bandwidth 100000000
 }
 
 link l9 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n4 n5}
     bandwidth 100000000
 }
 
 link l10 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n5 n13}
     bandwidth 100000000
 }
 
 link l11 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n5 n6}
     bandwidth 100000000
 }
 
 link l12 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n6 n14}
     bandwidth 100000000
 }
 
 link l13 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n6 n7}
     bandwidth 100000000
 }
 
 link l14 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n7 n15}
     bandwidth 100000000
 }
 
 link l15 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n7 n16}
     bandwidth 100000000
 }
 
 link l16 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n16 n17}
     bandwidth 100000000
 }
 
 link l17 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n17 n18}
     bandwidth 100000000
 }
 
 link l18 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n18 n19}
     bandwidth 100000000
 }
 
 link l19 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n19 n20}
     bandwidth 100000000
 }
 
 link l20 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n20 n21}
     bandwidth 100000000
 }
 
 link l21 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n21 n22}
     bandwidth 100000000
 }
 
 link l22 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n22 n23}
     bandwidth 100000000
 }
 
 link l23 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n16 n24}
     bandwidth 100000000
 }
 
 link l24 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n17 n25}
     bandwidth 100000000
 }
 
 link l25 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n18 n26}
     bandwidth 100000000
 }
 
 link l26 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n19 n27}
     bandwidth 100000000
 }
 
 link l27 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n20 n28}
     bandwidth 100000000
 }
 
 link l28 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n21 n29}
     bandwidth 100000000
 }
 
 link l29 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n22 n30}
     bandwidth 100000000
 }
 
 link l30 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n23 n31}
     bandwidth 100000000
 }
 
 link l31 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n23 n32}
     bandwidth 100000000
 }
 
 link l32 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n32 n33}
     bandwidth 100000000
 }
 
 link l33 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n33 n34}
     bandwidth 100000000
 }
 
 link l34 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n34 n35}
     bandwidth 100000000
 }
 
 link l35 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n35 n36}
     bandwidth 100000000
 }
 
 link l36 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n36 n37}
     bandwidth 100000000
 }
 
 link l37 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n37 n38}
     bandwidth 100000000
 }
 
 link l38 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n38 n39}
     bandwidth 100000000
 }
 
 link l39 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n39 n40}
     bandwidth 100000000
 }
 
 link l40 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n38 n41}
     bandwidth 100000000
 }
 
 link l41 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n37 n42}
     bandwidth 100000000
 }
 
 link l42 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n36 n43}
     bandwidth 100000000
 }
 
 link l43 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n35 n44}
     bandwidth 100000000
 }
 
 link l44 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n34 n45}
     bandwidth 100000000
 }
 
 link l45 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n33 n46}
     bandwidth 100000000
 }
 
 link l46 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n32 n47}
     bandwidth 100000000
 }
 
 link l47 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n32 n48}
     bandwidth 100000000
 }
 
 link l48 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n48 n49}
     bandwidth 100000000
 }
 
 link l49 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n49 n50}
     bandwidth 100000000
 }
 
 link l50 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n50 n51}
     bandwidth 100000000
 }
 
 link l51 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n51 n52}
     bandwidth 100000000
 }
 
 link l52 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n52 n53}
     bandwidth 100000000
 }
 
 link l53 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n53 n54}
     bandwidth 100000000
 }
 
 link l54 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n54 n55}
     bandwidth 100000000
 }
 
 link l55 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n48 n56}
     bandwidth 100000000
 }
 
 link l56 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n49 n57}
     bandwidth 100000000
 }
 
 link l57 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n50 n58}
     bandwidth 100000000
 }
 
 link l58 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n51 n59}
     bandwidth 100000000
 }
 
 link l59 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n52 n60}
     bandwidth 100000000
 }
 
 link l60 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n53 n61}
     bandwidth 100000000
 }
 
 link l61 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n54 n62}
     bandwidth 100000000
 }
 
 link l62 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n55 n63}
     bandwidth 100000000

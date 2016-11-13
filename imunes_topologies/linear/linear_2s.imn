@@ -69,18 +69,24 @@ node n3 {
 }
 
 link l0 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n2 n0}
     bandwidth 100000000
 }
 
 link l1 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n0 n1}
     bandwidth 100000000
 }
 
 link l2 {
+    width 1
+    duplicate 3
     delay 2000
     nodes {n1 n3}
     bandwidth 100000000
