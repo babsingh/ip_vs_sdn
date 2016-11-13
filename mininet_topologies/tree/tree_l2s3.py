@@ -33,17 +33,17 @@ def myNetwork():
     h4 = net.addHost('h4', cls=Host, ip='10.0.0.4', defaultRoute=None)
 
     info( '*** Add links\n')
-    h3s3 = {'bw':100,'delay':'2'}
+    h3s3 = {'bw':100,'delay':'2ms'}
     net.addLink(h3, s3, link=TCLink , **h3s3)
-    s3h4 = {'bw':100,'delay':'2'}
+    s3h4 = {'bw':100,'delay':'2ms'}
     net.addLink(s3, h4, link=TCLink , **s3h4)
-    h1s2 = {'bw':100,'delay':'2'}
+    h1s2 = {'bw':100,'delay':'2ms'}
     net.addLink(h1, s2, link=TCLink , **h1s2)
-    s3s1 = {'bw':100,'delay':'2'}
+    s3s1 = {'bw':100,'delay':'2ms'}
     net.addLink(s3, s1, link=TCLink , **s3s1)
-    s2s1 = {'bw':100,'delay':'2'}
+    s2s1 = {'bw':100,'delay':'2ms'}
     net.addLink(s2, s1, link=TCLink , **s2s1)
-    h2s2 = {'bw':100,'delay':'2'}
+    h2s2 = {'bw':100,'delay':'2ms'}
     net.addLink(h2, s2, link=TCLink , **h2s2)
 
     info( '*** Starting network\n')
