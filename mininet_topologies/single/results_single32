@@ -2,28 +2,50 @@
 Server listening on TCP port 5566
 TCP window size: 85.3 KByte (default)
 ------------------------------------------------------------
-[ 74] local 10.0.0.32 port 5566 connected with 10.0.0.1 port 42302
+[ 74] local 10.0.0.32 port 5566 connected with 10.0.0.1 port 34474
 [ ID] Interval       Transfer     Bandwidth
-[ 74]  0.0- 0.5 sec  5.57 MBytes  93.5 Mbits/sec
-[ 74]  0.5- 1.0 sec  4.00 MBytes  67.1 Mbits/sec
-[ 74]  1.0- 1.5 sec  3.82 MBytes  64.0 Mbits/sec
-[ 74]  1.5- 2.0 sec  5.37 MBytes  90.1 Mbits/sec
-[ 74]  2.0- 2.5 sec  5.38 MBytes  90.3 Mbits/sec
-[ 74]  2.5- 3.0 sec  5.60 MBytes  94.0 Mbits/sec
-[ 74]  3.0- 3.5 sec  5.62 MBytes  94.3 Mbits/sec
-[ 74]  3.5- 4.0 sec  5.40 MBytes  90.6 Mbits/sec
-[ 74]  4.0- 4.5 sec  4.82 MBytes  80.8 Mbits/sec
-[ 74]  4.5- 5.0 sec  4.81 MBytes  80.6 Mbits/sec
-[ 74]  5.0- 5.5 sec  2.98 MBytes  50.0 Mbits/sec
-[ 74]  5.5- 6.0 sec  5.52 MBytes  92.5 Mbits/sec
-[ 74]  6.0- 6.5 sec  5.53 MBytes  92.9 Mbits/sec
-[ 74]  6.5- 7.0 sec  5.42 MBytes  91.0 Mbits/sec
-[ 74]  7.0- 7.5 sec  5.56 MBytes  93.2 Mbits/sec
-[ 74]  7.5- 8.0 sec  5.56 MBytes  93.2 Mbits/sec
-[ 74]  8.0- 8.5 sec  5.55 MBytes  93.0 Mbits/sec
-[ 74]  8.5- 9.0 sec  4.78 MBytes  80.3 Mbits/sec
-[ 74]  9.0- 9.5 sec  3.86 MBytes  64.7 Mbits/sec
-[ 74]  9.5-10.0 sec  4.81 MBytes  80.6 Mbits/sec
-[ 74] 10.0-10.5 sec  4.21 MBytes  70.6 Mbits/sec
-[ 74] 10.5-11.0 sec  4.52 MBytes  75.8 Mbits/sec
-[ 74]  0.0-11.2 sec   112 MBytes  83.2 Mbits/sec
+[ 74]  0.0- 0.5 sec  4.35 MBytes  72.9 Mbits/sec
+[ 74]  0.5- 1.0 sec  3.33 MBytes  55.8 Mbits/sec
+[ 74]  1.0- 1.5 sec  4.17 MBytes  69.9 Mbits/sec
+[ 74]  1.5- 2.0 sec  5.70 MBytes  95.6 Mbits/sec
+[ 74]  2.0- 2.5 sec  5.66 MBytes  94.9 Mbits/sec
+[ 74]  2.5- 3.0 sec  4.71 MBytes  79.0 Mbits/sec
+[ 74]  3.0- 3.5 sec  5.28 MBytes  88.5 Mbits/sec
+[ 74]  3.5- 4.0 sec  5.68 MBytes  95.3 Mbits/sec
+[ 74]  4.0- 4.5 sec  4.84 MBytes  81.3 Mbits/sec
+[ 74]  4.5- 5.0 sec  5.67 MBytes  95.1 Mbits/sec
+[ 74]  5.0- 5.5 sec  5.46 MBytes  91.6 Mbits/sec
+[ 74]  5.5- 6.0 sec  4.02 MBytes  67.5 Mbits/sec
+[ 74]  6.0- 6.5 sec  4.96 MBytes  83.3 Mbits/sec
+[ 74]  6.5- 7.0 sec  5.01 MBytes  84.1 Mbits/sec
+[ 74]  7.0- 7.5 sec  5.30 MBytes  88.9 Mbits/sec
+[ 74]  7.5- 8.0 sec  3.46 MBytes  58.0 Mbits/sec
+[ 74]  8.0- 8.5 sec  5.64 MBytes  94.6 Mbits/sec
+[ 74]  8.5- 9.0 sec  5.63 MBytes  94.5 Mbits/sec
+[ 74]  9.0- 9.5 sec  4.98 MBytes  83.5 Mbits/sec
+[ 74]  9.5-10.0 sec  5.46 MBytes  91.5 Mbits/sec
+[ 74]  0.0-10.4 sec   104 MBytes  83.6 Mbits/sec
+[ 75] local 10.0.0.32 port 5566 connected with 10.0.0.1 port 34475
+[ 75]  0.0- 0.5 sec  2.95 MBytes  49.6 Mbits/sec
+[ 75]  0.5- 1.0 sec  3.99 MBytes  66.9 Mbits/sec
+[ 75]  1.0- 1.5 sec  4.09 MBytes  68.6 Mbits/sec
+[ 75]  1.5- 2.0 sec  4.31 MBytes  72.3 Mbits/sec
+[ 75]  2.0- 2.5 sec  4.05 MBytes  68.0 Mbits/sec
+[ 75]  2.5- 3.0 sec  4.00 MBytes  67.0 Mbits/sec
+[ 75]  3.0- 3.5 sec  4.32 MBytes  72.4 Mbits/sec
+[ 75]  3.5- 4.0 sec  4.85 MBytes  81.4 Mbits/sec
+[ 75]  4.0- 4.5 sec  5.53 MBytes  92.9 Mbits/sec
+[ 75]  4.5- 5.0 sec  4.28 MBytes  71.7 Mbits/sec
+[ 75]  5.0- 5.5 sec  5.65 MBytes  94.8 Mbits/sec
+[ 75]  5.5- 6.0 sec  3.85 MBytes  64.5 Mbits/sec
+[ 75]  6.0- 6.5 sec  5.55 MBytes  93.0 Mbits/sec
+[ 75]  6.5- 7.0 sec  3.69 MBytes  61.9 Mbits/sec
+[ 75]  7.0- 7.5 sec  4.07 MBytes  68.2 Mbits/sec
+[ 75]  7.5- 8.0 sec  5.61 MBytes  94.2 Mbits/sec
+[ 75]  8.0- 8.5 sec  5.27 MBytes  88.3 Mbits/sec
+[ 75]  8.5- 9.0 sec  4.56 MBytes  76.5 Mbits/sec
+[ 75]  9.0- 9.5 sec  5.63 MBytes  94.5 Mbits/sec
+[ 75]  9.5-10.0 sec  5.51 MBytes  92.5 Mbits/sec
+[ 75] 10.0-10.5 sec  5.48 MBytes  91.9 Mbits/sec
+[ 75] 10.5-11.0 sec  5.68 MBytes  95.3 Mbits/sec
+[ 75]  0.0-11.1 sec   104 MBytes  78.6 Mbits/sec
