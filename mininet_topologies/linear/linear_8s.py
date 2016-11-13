@@ -43,35 +43,35 @@ def myNetwork():
 
     info( '*** Add links\n')
     h1s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(h1, s1, link=TCLink , **h1s1)
+    net.addLink(h1, s1, cls=TCLink , **h1s1)
     h2s2 = {'bw':100,'delay':'2ms'}
-    net.addLink(h2, s2, link=TCLink , **h2s2)
+    net.addLink(h2, s2, cls=TCLink , **h2s2)
     s2s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(s2, s1, link=TCLink , **s2s1)
+    net.addLink(s2, s1, cls=TCLink , **s2s1)
     s2s3 = {'bw':100,'delay':'2ms'}
-    net.addLink(s2, s3, link=TCLink , **s2s3)
+    net.addLink(s2, s3, cls=TCLink , **s2s3)
     s3h3 = {'bw':100,'delay':'2ms'}
-    net.addLink(s3, h3, link=TCLink , **s3h3)
+    net.addLink(s3, h3, cls=TCLink , **s3h3)
     s3s4 = {'bw':100,'delay':'2ms'}
-    net.addLink(s3, s4, link=TCLink , **s3s4)
+    net.addLink(s3, s4, cls=TCLink , **s3s4)
     s4h4 = {'bw':100,'delay':'2ms'}
-    net.addLink(s4, h4, link=TCLink , **s4h4)
+    net.addLink(s4, h4, cls=TCLink , **s4h4)
     s4s5 = {'bw':100,'delay':'2ms'}
-    net.addLink(s4, s5, link=TCLink , **s4s5)
+    net.addLink(s4, s5, cls=TCLink , **s4s5)
     s5h5 = {'bw':100,'delay':'2ms'}
-    net.addLink(s5, h5, link=TCLink , **s5h5)
+    net.addLink(s5, h5, cls=TCLink , **s5h5)
     s5s6 = {'bw':100,'delay':'2ms'}
-    net.addLink(s5, s6, link=TCLink , **s5s6)
+    net.addLink(s5, s6, cls=TCLink , **s5s6)
     s6h6 = {'bw':100,'delay':'2ms'}
-    net.addLink(s6, h6, link=TCLink , **s6h6)
+    net.addLink(s6, h6, cls=TCLink , **s6h6)
     s6s7 = {'bw':100,'delay':'2ms'}
-    net.addLink(s6, s7, link=TCLink , **s6s7)
+    net.addLink(s6, s7, cls=TCLink , **s6s7)
     s7h7 = {'bw':100,'delay':'2ms'}
-    net.addLink(s7, h7, link=TCLink , **s7h7)
+    net.addLink(s7, h7, cls=TCLink , **s7h7)
     s7s8 = {'bw':100,'delay':'2ms'}
-    net.addLink(s7, s8, link=TCLink , **s7s8)
+    net.addLink(s7, s8, cls=TCLink , **s7s8)
     s8h8 = {'bw':100,'delay':'2ms'}
-    net.addLink(s8, h8, link=TCLink , **s8h8)
+    net.addLink(s8, h8, cls=TCLink , **s8h8)
 
     info( '*** Starting network\n')
     net.build()

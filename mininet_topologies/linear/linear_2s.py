@@ -31,11 +31,11 @@ def myNetwork():
 
     info( '*** Add links\n')
     s2s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(s2, s1, link=TCLink , **s2s1)
+    net.addLink(s2, s1, cls=TCLink , **s2s1)
     h1s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(h1, s1, link=TCLink , **h1s1)
+    net.addLink(h1, s1, cls=TCLink , **h1s1)
     h2s2 = {'bw':100,'delay':'2ms'}
-    net.addLink(h2, s2, link=TCLink , **h2s2)
+    net.addLink(h2, s2, cls=TCLink , **h2s2)
 
     info( '*** Starting network\n')
     net.build()
