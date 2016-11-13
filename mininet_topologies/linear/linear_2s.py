@@ -8,7 +8,6 @@ from mininet.node import IVSSwitch
 from mininet.cli import CLI
 from mininet.log import setLogLevel, info
 from mininet.link import TCLink, Intf
-from subprocess import call
 
 def myNetwork():
 
@@ -20,24 +19,23 @@ def myNetwork():
     c0=net.addController(name='c0',
                       controller=RemoteController,
                       ip='127.0.0.1',
-                      protocol='tcp',
                       port=6633)
 
     info( '*** Add switches\n')
-    s1 = net.addSwitch('s1', cls=OVSKernelSwitch)
     s2 = net.addSwitch('s2', cls=OVSKernelSwitch)
+    s1 = net.addSwitch('s1', cls=OVSKernelSwitch)
 
     info( '*** Add hosts\n')
     h2 = net.addHost('h2', cls=Host, ip='10.0.0.2', defaultRoute=None)
     h1 = net.addHost('h1', cls=Host, ip='10.0.0.1', defaultRoute=None)
 
     info( '*** Add links\n')
-    s2s1 = {'bw':100,'delay':'2'}
-    net.addLink(s2, s1, cls=TCLink , **s2s1)
-    h1s1 = {'bw':100,'delay':'2'}
-    net.addLink(h1, s1, cls=TCLink , **h1s1)
-    h2s2 = {'bw':100,'delay':'2'}
-    net.addLink(h2, s2, cls=TCLink , **h2s2)
+    s2s1 = {'bw':100,'delay':'2ms'}
+    net.addLink(s2, s1, link=TCLink , **s2s1)
+    h1s1 = {'bw':100,'delay':'2ms'}
+    net.addLink(h1, s1, link=TCLink , **h1s1)
+    h2s2 = {'bw':100,'delay':'2ms'}
+    net.addLink(h2, s2, link=TCLink , **h2s2)
 
     info( '*** Starting network\n')
     net.build()
@@ -46,10 +44,10 @@ def myNetwork():
         controller.start()
 
     info( '*** Starting switches\n')
-    net.get('s1').start([c0])
     net.get('s2').start([c0])
+    net.get('s1').start([c0])
 
-    info( '*** Post configure switches and hosts\n')
+    info( '*** Configuring switches\n')
 
     CLI(net)
     net.stop()
