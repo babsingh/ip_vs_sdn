@@ -42,33 +42,33 @@ def myNetwork():
 
     info( '*** Add links\n')
     s3s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(s3, s1, link=TCLink , **s3s1)
+    net.addLink(s3, s1, cls=TCLink , **s3s1)
     h1s4 = {'bw':100,'delay':'2ms'}
-    net.addLink(h1, s4, link=TCLink , **h1s4)
+    net.addLink(h1, s4, cls=TCLink , **h1s4)
     s7s3 = {'bw':100,'delay':'2ms'}
-    net.addLink(s7, s3, link=TCLink , **s7s3)
+    net.addLink(s7, s3, cls=TCLink , **s7s3)
     s6s3 = {'bw':100,'delay':'2ms'}
-    net.addLink(s6, s3, link=TCLink , **s6s3)
+    net.addLink(s6, s3, cls=TCLink , **s6s3)
     s4s2 = {'bw':100,'delay':'2ms'}
-    net.addLink(s4, s2, link=TCLink , **s4s2)
+    net.addLink(s4, s2, cls=TCLink , **s4s2)
     s5s2 = {'bw':100,'delay':'2ms'}
-    net.addLink(s5, s2, link=TCLink , **s5s2)
+    net.addLink(s5, s2, cls=TCLink , **s5s2)
     s2s1 = {'bw':100,'delay':'2ms'}
-    net.addLink(s2, s1, link=TCLink , **s2s1)
+    net.addLink(s2, s1, cls=TCLink , **s2s1)
     s4h2 = {'bw':100,'delay':'2ms'}
-    net.addLink(s4, h2, link=TCLink , **s4h2)
+    net.addLink(s4, h2, cls=TCLink , **s4h2)
     s5h3 = {'bw':100,'delay':'2ms'}
-    net.addLink(s5, h3, link=TCLink , **s5h3)
+    net.addLink(s5, h3, cls=TCLink , **s5h3)
     s5h4 = {'bw':100,'delay':'2ms'}
-    net.addLink(s5, h4, link=TCLink , **s5h4)
+    net.addLink(s5, h4, cls=TCLink , **s5h4)
     s6h5 = {'bw':100,'delay':'2ms'}
-    net.addLink(s6, h5, link=TCLink , **s6h5)
+    net.addLink(s6, h5, cls=TCLink , **s6h5)
     s6h6 = {'bw':100,'delay':'2ms'}
-    net.addLink(s6, h6, link=TCLink , **s6h6)
+    net.addLink(s6, h6, cls=TCLink , **s6h6)
     s7h7 = {'bw':100,'delay':'2ms'}
-    net.addLink(s7, h7, link=TCLink , **s7h7)
+    net.addLink(s7, h7, cls=TCLink , **s7h7)
     s7h8 = {'bw':100,'delay':'2ms'}
-    net.addLink(s7, h8, link=TCLink , **s7h8)
+    net.addLink(s7, h8, cls=TCLink , **s7h8)
 
     info( '*** Starting network\n')
     net.build()
